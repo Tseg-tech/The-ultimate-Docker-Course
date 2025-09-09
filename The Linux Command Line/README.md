@@ -1,6 +1,6 @@
-The Linux Command Line
+       The Linux Command Line
 
-Managing packages
+# Managing packages
 
 apt update
 
@@ -10,7 +10,7 @@ apt install nano
 
 apt remove nano
 
-Navigating the file system
+# Navigating the file system
 
 pwd                             # to print the working directory
 
@@ -26,7 +26,7 @@ cd ..                           # to go one level up
 
 cd ~                            # to go to the home directory 
 
-Manipulating files and directories
+# Manipulating files and directories
 
 mkdir test                      # to create the test directory
 
@@ -40,7 +40,7 @@ rm hello.txt                    # to remove a file
 
 rm -r docker                    # to recursively remove a directory
 
-Editing and viewing files
+# Editing and viewing files
 
 nano file.txt                  # to edit file.txt
  
@@ -56,7 +56,7 @@ tail file.txt                  # to view the last 10 lines
 
 tail -n 5 file.txt             # to view the last 5 lines 
 
-Searching for text
+# Searching for text
 
 grep hello file.txt            # to search for hello in file.txt
 
@@ -66,7 +66,7 @@ grep -i hello file*.txt        # to search in files with a pattern
 
 grep -i -r hello .             # to search in the current directory
 
-Finding files and directories
+# Finding files and directories
 
 find                          # to list all files and directories
 
@@ -76,7 +76,7 @@ find -type f                  # to list files only
 
 find -name f*                 # to filter by name using a pattern
 
-Managing environment variables
+# Managing environment variables
 
 printenv                     # to list all variables and their value
 
@@ -86,13 +86,13 @@ echo $PATH                   # to view the value of PATH
 
 export name=bob              # to set a variable in the current session
 
-Managing processes
+# Managing processes
 
 ps                           # to list the running processes
 
 kill 37                      # to kill the process with ID 37
 
-Managing users and groups
+# Managing users and groups
 
 useradd -m john              # to create a user with a home directory
 
@@ -110,7 +110,7 @@ groupmod                     # to modify a group
 
 groupdel                     # to delete a group
 
-File permissions
+# File permissions
 
 chmod u+x deploy.sh          # give the owning user execute permission
 
