@@ -1,4 +1,6 @@
-Docker is a platform for consistently building, running, and shipping applications.
+                                   Docker Basics
+
+• Docker is a platform for consistently building, running, and shipping applications.
 
 • A virtual machine is an abstraction of hardware resources. Using hypervisors we can
 create and manage virtual machines. The most popular hypervisors are VirtualBox,
